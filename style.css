@@ -174,10 +174,11 @@ body{
   align-self: flex-start;
 }
 .block__quantity img{
+
   width: 100%;
 }
 .quantity__image {
-  margin-bottom: 25px;
+  margin: 15px 0  25px 0;
   position: relative;
   padding: 0 60px;
 }
@@ -216,6 +217,7 @@ body{
 .blog__header {
   display: flex;
   margin: 0 0 30px 0;
+  justify-content: space-between;
 }
 .blog__autor {
   flex: 0 1 45%;
@@ -225,9 +227,9 @@ body{
   display: inline-block;
 }
 
-.blog__date 
+.blog__date{}
 .blog__date-text{
-  margin-top: 3px;
+  margin: 3px 5px 0 0;
   display: inline-block;
   font-size: 14px;
 }
@@ -268,8 +270,8 @@ body{
   margin-bottom: 5px;
 }
 .block__holiday-left p:nth-child(1){
+  margin: 15px 0  10px 0;
   font-size: 20px;
-  margin-bottom: 10px;
 }
 .block__holiday-left p:last-child{
   margin-bottom: 10px;
@@ -412,17 +414,24 @@ body{
     display: flex;
     justify-content: space-around;
   }
-  .block__holiday-left img {
+  .block__holiday-left p:nth-child(1){
+    margin: -3px 0  10px 0;
+    font-size: 20px;
+  }
+  .block__holiday-left img{
     position: absolute;
-    top: 40px;
+    top: 35px;
     left: 0;
   }
   .block__holiday-left{
     margin: 15px 0 10px 0;
     position: relative;
   }
-  .block__holiday-right {
+  .block__holiday-right{
     margin: 15px 0 0 0;
+  }
+  .block__holiday-right p:last-child{
+    margin: 13px 0 0 0;
   }
   .block__blog-next-card{
     width: 96%;
