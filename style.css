@@ -239,10 +239,9 @@ body{
 .blog__footer img{
   margin-top: 7px;
 }
-.like {
-  flex: 0 1 13%;
+.comment {
+  margin-left: 100px;
 }
-.comment {}
 .block__holiday{
   flex: 0 1 15%;
   border: 1px solid #000;
